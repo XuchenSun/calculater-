@@ -1,6 +1,6 @@
 #include <iostream>
 #include "calculator.h"
-#include "second.h"
+#include "complex.h"
 
 using namespace std;
 
