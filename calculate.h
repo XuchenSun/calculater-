@@ -5,7 +5,7 @@ double calculator(double x, double y, char op)
 // Xuchen Sun 201893438
 	double result;
 
-	cout << "Please select an operation +,-,*,/or%,A,X,M,S,Q";
+	cout << "Please select an operation +,-,*,/or%,A(Average),X(the larger one),M(the smaller one),S(Square operation),Q(quit)";
 	cin >> op;
 	switch (op)
 	{
@@ -71,7 +71,7 @@ double calculator(double x, double y, char op)
 
 		result = result / 2;
 		cout << "\noriginal input is\n" << x << " and " << y;
-		cout << "\nthe result is(A operation) \n" << result;
+		cout << "\nthe result is(Average operation) \n" << result;
 		return result;
 		
 
